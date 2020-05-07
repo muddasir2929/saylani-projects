@@ -1,0 +1,15 @@
+div.header {
+    color: red;
+    background-color: hsl(61, 94%, 50%);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+div.center {
+    width: 540px;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(167, 167, 101);
+}

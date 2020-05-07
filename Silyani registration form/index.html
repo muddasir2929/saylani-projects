@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top">
+        <img src="sylani_logo.PNG" alt="logo" class="sylani_logo"> 
+        <h1 class="registration_form">STUDENT REGISTRATION FORM</h1>
+    </div>
+
+<div class="blue_section">
+    <div class="name">
+        <p class="first_name">FIRST NAME</p>
+        <input class="enter_first_name" type="text" name="enter first name" value="Enter first name">
+        <b class="name_max_character">(max 30 characters a-z and A-Z)</b>
+    </div>
+
+    <div class="last">
+        <p class="last_name">LAST NAME</p>
+        <input class="enter_last_name" type="text" name="last name" value="Enter last name">
+        <b class="last_max_character">(max 30 characters a-z and A-Z)</b>  
+    </div>
+
+    <div class="date">
+    <p class="date_of_birth">DATE OF BIRTH</p>
+        <select class="days" aria-label="day">
+            <option selected>Day:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select class="months" aria-label="month">
+            <option selected>Month:</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+        <select class="years" aria-label="year">
+            <option selected>Year:</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+        </select>
+    </div>
+
+    <div class="mail">
+        <p class="mail_id">EMAIL ID</p>
+            <input class="enter_mail_id" type="text" name="enter email address" value="Enter mobile number">
+            <b class="mail_max_character">(10 digit number)</b>
+    </div>
+
+    <div class="gen">
+        <p class="gender">Gender</p>
+            <span class="male">Male<input type="radio" name="male" value="Male"></span>
+            <span class="female">Female<input type="radio" name="female" value="female"></span>
+    </div>
+
+    <div class="add">
+        <p class="address">ADDRESS</p>
+        <textarea class="enter_address" name="enter your address" cols="35" rows="5"></textarea>
+    </div>
+
+    <div class="ci">
+        <p class="city">CITY</p>
+        <input class="enter_city" type="text" name="enter city name" value="Enter city name">
+        <b class="enter_max_city">(max 30 characters a-z and A-Z)</b>
+    </div>
+
+    <div class="pin">
+        <p class="pin_code">PIN CODE</p>
+            <input class="enter_pin_code" type="text" name="enter poincode" value="Enter pincode">
+            <b class="max_digit">(6 digit number)</b>
+    </div>
+
+    <div class="st">
+        <p class="state">STATE</p>
+            <input class="enter_state" type="text" name="Enter state" value="Enter state">
+            <b class="state_max_character">(max 30 characters a-z and A-Z)</b>
+    </div>
+
+    <div class="count">
+        <p class="country">COUNTRY</p>
+        <input class="enter_country" type="text" name="enter first name" value="Enter country">
+    </div>
+
+    <div class="hob">
+        <p class="hobbies">HOBBIES</p>
+            <span class="singing">Singing<input type="checkbox" name="male"></span>
+            <span class="dancing">Dancing<input type="checkbox" name="female" ></span>
+            <span class="sketching">Sketching<input type="checkbox" name="female" ></span>
+            <span class="other">Other<input type="checkbox" name="female" ><input style="width: 180px; height: 20px;" type="text" name="female"></span>
+    </div>
+
+        <div class="table"">
+            <p class="qualification">QUALIFICATION</p>
+            <table class="main_table">
+                <tr>
+                    <th>St.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Class X</th>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Class XII</th>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Graduation</th>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Masters</th>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="courses">
+            <p class="courses_applied">COURSES APPLIED FOR</p>
+                <span class="bca">BCA<input type="radio" name="enter first name" value="Enter country"></span>
+                <span class="bcom">B.Com<input type="radio" name="enter first name" value="Enter country"></span>
+                <span class="bsc">B.Sc<input type="radio" name="enter first name" value="Enter country"></span>
+                <span class="ba">B.A<input type="radio" name="enter first name" value="Enter country"></span>
+        </div>
+
+        <div class="button">
+            <button class="first_button"><a href="submit.html">Submit</a></button>
+                <input class="second_button" type="button" name="Reset" value="Reset">
+        </div>
+</div>
+</body>
+</html>
